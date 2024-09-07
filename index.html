@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <title>Lost Guides</title>
+</head>
+
+<body>
+     <!--Cabecalho-->
+     <header>
+          <h1>LOST GUIDES</h1>
+          <h2>Guias para Lost Ark</h2>
+     </header>
+     <main>
+          <!--Caixa de Pesquisa-->
+          <section>
+               <input type="text" placeholder="Digite o guia que você procura" id="campo-pesquisa">
+               <button onclick="pesquisar()">Pesquisar</button>
+          </section>
+          <!--Conteudo-Pesquisa-->
+          <section class="resultados-pesquisa" id="resultados-pesquisa">
+          </section>
+     </main>
+
+     <!-- Rodape -->
+     <footer>
+          <p>2024 - Guias para Lost Ark. Todos os direitos reservados</p>
+          <p>Lost Guides é um site criado por fãs e não é afiliado ou endossado por Lost Ark, Smilegate ou AGS.</p>
+     </footer>
+     <!-- JavaScript -->
+     <script src="dados.js"></script>
+     <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -35,6 +35,6 @@ Você: Por estar interessado no projeto!
 
 <div align="center">
 <img src="img/Lost_Ark_logo.webp" alt="Logo Lost Ark">
-</div> (img/Lost_Ark_logo.webp)
+</div>
 
 #lostark #guias #imersaodev #alura #gemini #javascript #html #css
